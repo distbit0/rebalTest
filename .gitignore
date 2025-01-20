@@ -1,91 +1,71 @@
-# Python compiled files
-**pycache**/
-*.py[cod]
-*.pyc
+# Node.js
+node_modules/
+.npm
+.node_repl_history
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+.pnp.*
+.pnp.js
+.lock-wscript
+*.lock
+.yarn-integrity
 
-# Python packaging files
-*.egg-info/
-*.egg
-dist/
+# Build and Cache
 build/
-eggs/
-parts/
-sdist/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-MANIFEST
+cache/
+dist
+.output
+.cache
+.nuxt
+.vuepress/dist
+.temp
+.fusebox/
+.dynamodb/
+.serverless/
+nohup.out
+tmp/
 .aider*
 
-# Log files
-*.log
+# Coverage and Report
+coverage/
+lib-cov
+.nyc_output
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+reports
 
-# Environment files
+# Environment
 .env
-venv/
-.venv/
-env/
-profile-venv/
+.env.local
+.env.*.local
+.vercel
 
-# IDE and editor files
+# IDE and Editor
+.vscode/
 .idea/
-.spyderproject
-.spyproject
-.ropeproject
-*.sage.py
-.scrapy
+.c9/
+*.log
+.history
+.tern-port
 
-# Cache and temporary files
-*~
-.cache
+# OS generated files
 .DS_Store
-.eggs/
-.coverage
-nohup.out
-.coverage.*
-.hypothesis/
-.installed.cfg
-.mypy_cache/
-.nox/
-.pytest_cache/
-.pyre/
-.tox/
-cython_debug/
-develop-eggs/
-downloads/
-htmlcov/
-instance/
-nosetests.xml
-pip-delete-this-directory.txt
-pip-log.txt
-target/
-var/
-tmp/
-*.lock
+*~
 
-# Compiled files
-*.jar
-*.war
-*.ear
-*.class
-*.mo
-*.so
-*.spec
-*.zip
+# Compressed files
 *.tgz
+*.zip
 
-# Documentation files
-docs/_build/
+# ESLint
+.eslintcache
 
-# Miscellaneous files
-.classpath
-.dmypy.json
-lib/
-lib64/
-profile_default/
-.Python
-.pytype/
+# Yarn
+.yarn-integrity
 
+# Yalc
+.yalc
 
 # output and storage
 output/
